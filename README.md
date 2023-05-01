@@ -14,7 +14,9 @@ Lambda function that sends an alarm to Slack when Webconsole login event occurs 
 
 2. Lambda Function
 - Name Handler from 'hello' to 'main'
-- Set SLACK_AUTH_TOKEN, CHANNEL_ID in Lambda environment variable
+- Set Lambda environment variable
+  - `SLACK_AUTH_TOKEN`
+  - `CHANNEL_ID`
 
 3. Eventbridge
 - Event Pattern
